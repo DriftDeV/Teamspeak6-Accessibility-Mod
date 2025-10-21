@@ -19,7 +19,17 @@ tutti i suggerimenti sono graditi!
   ### Installazione di Teamspeak
   https://www.teamspeak.com/en/downloads/
   Logicamente, scarica la versione per Windows a 64bit di temspeak 6.0.0 (versione attuale)
-
+  
 ### Installazione ed esecuzione degli Script di accessibilità
+* Vai su https://github.com/DriftDeV/Teamspeak6-Accessibility-Mod/releases e scaricati source-code.zip
+
+* Estrai il file zip, e nella cartella creata fai tasto destro (shft-F10) e seleziona "Apri nel terminale" e digita:
+  ''' npm install package.json '''
+* se vi si presenta un errore digitate:
+  ''' npm udit fix --force '''
+ E poi riprovate a digitare il comando precedente a questo, dovrebbe funzionare
+* Adesso vi basta soltanto fare tasto destro su start-teamspeak.ps1 ed "esegui con powershell" ed il gioco è fatto!
+Per qualsiasi cosa potete creare una issue e vi risponderò quanto prima possibile
+  
 
 ## MacOS
