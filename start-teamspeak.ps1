@@ -5,4 +5,4 @@ Start-Process -FilePath $tsExe -ArgumentList "--remote-debugging-port=9222 --rem
 # Attendi qualche secondo per assicurare l'avvio
 Start-Sleep -Seconds 3
 # Avvia l'injector Node
-node .\injector.js
+node .\src\injector.js
